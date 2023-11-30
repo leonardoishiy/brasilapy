@@ -15,6 +15,26 @@ class Bank(BaseReturnModel):
     code: int | None
     fullName: str
 
+class Corretora (BaseReturnModel):
+    bairro: str
+    cep: str
+    cnpj: str
+    codigo_cvm: str
+    complemento: str
+    data_inicio_situacao: str
+    data_patrimonio_liquido: str
+    data_registro: str
+    email: str
+    logradouro: str
+    municipio: str
+    nome_social: str
+    nome_comercial: str
+    pais: str
+    status: str
+    telefone: str
+    type: str
+    uf: str
+    valor_patrimonio_liquido: str
 
 # Classes for CEP
 class CEP(BaseReturnModel):
